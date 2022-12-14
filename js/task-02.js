@@ -10,7 +10,7 @@ const ingredients = [
 const ingredList = document.querySelector('#ingredients');
 const arr = [];
 
-ingredients.forEach(ingredient => {
+ingredients.map(ingredient => {
   const itemEl = document.createElement('li');
   itemEl.textContent = ingredient;
   itemEl.className = 'item';

@@ -1,7 +1,7 @@
 const sizeControl = document.querySelector('#font-size-control');
 const textAbracadabra = document.querySelector('#text');
 
-sizeControl.addEventListener('change', event => {
+sizeControl.addEventListener('input', event => {
     textAbracadabra.style.fontSize = `${event.target.value}px`;
 })
 
